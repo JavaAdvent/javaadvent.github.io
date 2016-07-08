@@ -1,0 +1,35 @@
+# Site settings
+title: The JVM Advent Calendar
+description: "The JVM Advent Calender"
+url: "https://www.javaadvent.com/"
+author:
+  name: "JavaAdvent"
+  email: ""
+  url: "https://www.javaadvent.com/"
+
+# Build settings
+baseurl: /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+repository: JavaAdvent/javaadvent.github.io
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false

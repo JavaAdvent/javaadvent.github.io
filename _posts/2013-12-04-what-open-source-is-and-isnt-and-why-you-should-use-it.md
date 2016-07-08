@@ -1,0 +1,33 @@
+---
+id: 56
+title: 'What Open Source is (and isn&#8217;t) and why you should use it?'
+date: 2013-12-04T09:00:00+00:00
+author: gpanther
+layout: post
+guid: http://www.javaadvent.com/2013/12/what-open-source-is-and-isnt-and-why-you-should-use-it/
+permalink: /2013/12/what-open-source-is-and-isnt-and-why-you-should-use-it.html
+blogger_blog:
+  - www.javaadvent.com
+blogger_author:
+  - Attila-Mihaly Balazs
+blogger_permalink:
+  - /2013/12/what-open-source-is-and-isnt-and-why.html
+blogger_internal:
+  - /feeds/2481158163384033132/posts/default/5256847100316622837
+geo_latitude:
+  - 46.777248
+geo_longitude:
+  - 23.5998899
+geo_public:
+  - 1
+geo_address:
+  - Cluj-Napoca, Romania
+dsq_thread_id:
+  - 4962579247
+categories:
+  - 2013
+  - free software
+  - java
+  - open source
+---
+<div dir="ltr" style="text-align: left;"><div style="float: right;"><a href="http://www.flickr.com/photos/bike/3644760104/" title="Youth beach party by Richard Masoner / Cyclelicious, on Flickr"><img alt="Youth beach party" height="213" src="http://farm3.staticflickr.com/2476/3644760104_2a82443b0b_n.jpg" width="320" /></a></div>Open Source software plays a big role in the Java ecosystem (just think Maven, all the libraries in Maven Central, Gradle, OpenJDK, Ant, Ivy, Eclipse, Ant and so on). There is also a periodic "oh sh*t" moment when people deride OSS and declare it unreliable, risky and other things (perhaps the most recent one being <a href="http://blog.jooq.org/2013/11/12/oracle-glassfish-or-why-you-should-think-about-open-source-again/">the discontinuation of GlassFish by Oracle</a>).<br />Because of this I decided to write this post to show how Open Source is a great idea (if you keep your expectations in check) and why you should use it.<br />First, lets quickly run trough what Free/Libre or Open Source Software is and then delve into each of the points and see why they are important:<br /><ol><li>You have access to the source code and you can build the functional end-product yourself</li><li>Accepting the license gives the user some rights usually not granted by proprietary software</li><li>There is a community around the software which accepts contributions (bug reports/fixes, documentation, new features) and all the processes (like bugtracker, discussions, etc) are in the open, accessible to every user</li></ol>Note how I didn't say anything about money there: F/LOSS is about freedom ("Libre") not price. It is perfectly fine (and legal and in the spirit of the license) to sell a F/LOS software for money - although it is rarely done.<br /><b>1. Access to the source code and a way to build the final product</b> <br />This is what most developers think when they hear "open source" and the advantages are clear to all of us: looking at the source code makes it easy to understand the functionality and debug problems. Yes, you get documentation, but that can be outdated, hard to understand, plain wrong or missing your use-case. Also, you can debug <em>any</em> software using tools like decompilers or system-level debuggers, but the effort to do so without the source is much greater.<br />Compare this to proprietary software: you get documentation (which may or may not be usable) and some support which usually has a 24 hours turn-around time and needs a couple of back-and-forths until they can solve your problem (if that can at all - and yes, I'm talking from experience here using tens-of-thousands of dollars worth of "enterprise" software).<br />Also, in the 60's and 70's (until the paranoia of "intellectual property" set in) much of proprietary software was distributed as source code exactly for this reason - to lower the support costs and make customers happier.<br />Note: the <em>a way to build the final product</em> part is important (and codified in the F/LOSS licenses). Otherwise companies could just give you a bunch of source files without the Makefile / build.xml / pom or even worse: say "sorry, we compile this with our in-house compiler which you can't get", circumventing the spirit of the license.<br /><b>2. Using F/LOSS products grants some rights not found in proprietary software</b> <br />But first talk about your obligations: as with proprietary software you have some obligations if you use the software - you accept not to hold the producer of the software liable for any damages and usually you wove not to sue the producer for patent infringements.<br />Compare this to proprietary software: you still accept such (or even more draconian) terms <em>and you must do so before even taking a look at the software</em> and before knowing if the software is fit for your usecase at all. Look up shrink-wrap license.<br />In addition to these restrictions F/LOSS licenses give you some freedoms not present in proprietary licenses:<br /><ul><li>To use it for any purpose (some proprietary vendors prohibit you from doing benchmarks of their products for example!)</li><li>To study how it works (the most important for developers)</li><li>To redistribute it and</li><li>To redistribute modified versions</li></ul><b>3. Transparent community</b> <br />This is the final part of the puzzle. A project which doesn't accept changes and the discussions are not done in the open is not truly open-source. Conversely, for really open projects you have a vibrant community and a very good chance that someone else already encountered and solved your problem (no, we are not unique snowflakes - probably someone else has already struggled with our usecsae).<br /><b>Final words</b> <br />So we've seen what open source is. Now let me say a couple of words about it being capitalistic / market friendly: you can pay for the level of service you desire. You can even get support form different, competing companies (something which is not really possible with commercial software).<br />And what happens if the main entity (developer or company) behind the project stops supporting it (like it happened with GlassFish)? It is unfortunate, but if the project is valuable to the users, somebody else will come along and continue it. If it isn't - it isn't.<br />Compare this to proprietary software: if the company stops developing it, you're out of luck and there isn't even the hope for somebody continuing the development.<br /><br /></div> <p><em>Meta: this post is part of the <a href="http://javaadvent.com/">Java Advent Calendar</a> and is licensed under the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution</a> license. If you like it, please spread the word by sharing, tweeting, FB, G+ and so on!</em></p>
